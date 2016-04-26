@@ -1,2 +1,2 @@
-test conflict
 master
+master from remote
