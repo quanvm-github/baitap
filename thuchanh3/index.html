@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<title>Thuc Hanh 3</title>
+	<link rel="stylesheet" type="text/css" href="css/thuchanh3.css">
+	<script src="js/thuchanh3.js"></script>
+</head>
+
+<body>
+	<div id="leftpart">
+		<div id="hotnews">
+			<div class="hotnews_container">
+				<h4 class="hotnews_title">DAILY CELEBRITY GOSSIP</h4>
+				<div class="hotnews_1">
+					<img class="hotnews_img" src="images/daily_1.png" alt="">
+					<div id="hotnews_more_1"><span class="more_text"><a href="#">MORE</a></span></div>
+					<div class="hotnews_text">
+						<h5>+ RUSSELL CROWE + MORE ...</h5>
+						<p>RUSSELL Crowe's son to marry  Keith & Nicole's daughter, plus Renee Zellweger reveals her breast cancer scare</p>
+					</div>
+				</div>
+			</div>
+			<div class="hotnews_container">
+				<h4 class="hotnews_title">DAILY CELEBRITY PICS</h4>
+				<div class="hotnews">
+					<img class="hotnews_img" src="images/daily_2.png" alt="">
+					<div id="hotnews_more_2"><span class="more_text"><a href="#">MORE</a></span></div>
+					<div class="hotnews_text">
+						<h5>+ BECKHAMS, CLAUDIA CHIFFER ...</h5>
+						<p>VICTORIA and David Beckham dine out in NY, as top model Claudia Schiffer and Eva Herzigova hit the shops in Milan.</p>
+					</div>
+				</div>
+			</div>
+			<div id="hotnews_footer"></div>
+		</div>
+		<div id="movies">
+			<div id="movies_container">
+				<h4 id="movies_title">TOP 3 MOVIE TRAILERS</h4>
+				<div id="movies_content">
+					<div class="movies_trailer" onclick="show(this)" value="0"><p class="movies_menu">The House Bunny (M)</p><img class="movies_img" src="images/right.png" alt=""></div>
+						<div class="movies_trailer_infor" style="display: block;">
+							<img src="images/0,,6254346,00.jpg" alt="">
+							<p>When Playboy bunny Shelly is tossed out of the mansion, she falls in with the sorority girls from Zeta Alpha Zeta.</p>
+							<div class="watch">
+								<img src="images/watch-trailer.gif" alt="">
+								<p>Watch Now</p>
+							</div>
+						</div>
+					<div class="movies_trailer" onclick="show(this)" value="1"><p class="movies_menu">Eagle Eye (M)</p><img class="movies_img" src="images/right.png" alt=""></div>
+						<div class="movies_trailer_infor">
+							<img src="images/0,,6254346,00.jpg" alt="">
+							<p>When Playboy bunny Shelly is tossed out of the mansion, she falls in with the sorority girls from Zeta Alpha Zeta.</p>
+							<div class="watch">
+								<img src="images/watch-trailer.gif" alt="">
+								<p>Watch Now</p>
+							</div>
+						</div>
+					<div class="movies_trailer" onclick="show(this)" value="2"><p class="movies_menu">Journey To The Centre Of The Earth(PG)</p><img class="movies_img" src="images/right.png" alt=""></div>
+						<div class="movies_trailer_infor">
+							<img src="images/0,,6254346,00.jpg" alt="">
+							<p>When Playboy bunny Shelly is tossed out of the mansion, she falls in with the sorority girls from Zeta Alpha Zeta.</p>
+							<div class="watch">
+								<img src="images/watch-trailer.gif" alt="">
+								<p>Watch Now</p>
+							</div>
+						</div>
+				</div>
+				<div id="movies_trailer_watch"><img id="movies_trailer_img" src="images/now-showing-icon.gif" alt=""><span id="movies_trailer_menu">Now Showing</span>
+					<select id="select">
+						<option value="">Select Movie</option>
+					</select>
+				</div>
+			</div>
+			<div id="trailer">
+				<div class="trailer_container">
+					<h4 class="trailer_title">MOVIE PREVIEWS</h4>
+					<div class="trailer_content">
+						<h5>Eagle Eye</h5><div id="trailer_sprites_1"></div>
+						<div class="trailer_text">
+							<div class="trailer_text_left">
+								<img src="images/thumb_100x66_216371_216162_2008_eagle_eye_00.jpg" alt=""><br/>
+								<div class="watch">
+									<img src="images/watch-trailer.gif" alt="">
+									<p>View Trailer</p>
+								</div>
+							</div>
+							<p>SHIA LaBeouf hits the ground running in Eagle eye, an againts the clock conspiracy thriller with a timely technological...</p>
+						</div>
+					</div>
+					<div id="trailer_content">
+						<h5>House Bunny</h5><div id="trailer_sprites_2"></div>
+						<div class="trailer_text">
+							<div class="trailer_text_left">
+								<img src="images/thumb_100x66_215784_215698_2008_the_house_bunny.jpg" alt=""><br/>
+								<div class="watch">
+									<img src="images/watch-trailer.gif" alt="">
+									<p>View Trailer</p>
+								</div>
+							</div>
+							<p>IF YOU left Legally Blonde and Revenge of the Nerds DVDs in a darkened room for long enough, something like the House Bun</p>
+						</div>
+					</div>
+					<div id="trailer_footer">
+						<img id="trailer_footer_img" src="images/clock.gif" alt=""><p id="trailer_footer_watch">Local Cinema listings</p><p id="trailer_footer_p">+ MORE MOVIES</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="search">
+		<img src="images/Entertainment.gif" alt=""><br/>
+		<input id="search_textbox" type="text">
+		<input id="search_button" type="button" value="SEARCH">
+	</div>
+	<div id="footer">
+		<div class="footer_item">
+			<img src="images/fo_1.gif" alt="#"/>
+			<p>News on your mobile</p>
+		</div>
+		<div class="footer_item">
+			<img src="images/fo_2.gif" alt="#"/>
+			<p>RSS feeds</p>
+		</div>
+		<div class="footer_item">
+			<img src="images/fo_3.gif" alt="#"/>
+			<p>Newsletters</p>
+		</div>
+		<div class="footer_item">
+			<img src="images/fo_4.gif" alt="#"/>
+			<p>Send your news stories</p>
+		</div>
+		<div class="footer_item">
+			<img src="images/fo_5.gif" alt="#"/>
+			<p>Send your news photos</p>
+		</div>
+	</div>
+	<div id="footer_bottom">
+		<div id="footer_bottom_right">
+			<p><a href="#">Back to top</a></p>
+		</div>
+		<div id="footer_bottom_left">
+			<p><a href="#">Help</a> | 
+			<a href="#">Contact us</a> | 
+			<a href="#">Advertise with us</a> | 
+			<a href="#">Job Opportunities </a> | 
+			<a href="#">Terms and Conditions</a> | 
+			<a href="#">Privacy Policy</a> | 
+			<a href="#">Accessibility</a> | 
+			<a href="#">Sitemap</a> | 
+			<a href="#">News Headlines from our Parterna</a></p>
+		</div>
+		<div id="footer_bottom_end">
+			<p>Copyright 2008 News Limited. All times AEST (GMT + 10)</p>
+		</div>
+	</div>
+</body>
+
+</html>

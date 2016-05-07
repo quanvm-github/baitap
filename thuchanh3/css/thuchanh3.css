@@ -1,0 +1,285 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: #292728;
+	margin: 0px;
+}
+a {
+	color: #0086CC;
+	text-decoration: none;
+}
+h4 {
+	color: white;
+	margin: 0px;
+	padding: 3px 0px 3px 0px;
+}
+p {
+	font-size: 12px;
+	margin: 0px;
+	padding-right: 5px;
+}
+#leftpart {
+	float: left;
+	margin-top: 10px;
+    	margin-left: 10px;
+}
+.hotnews_container {
+	width: 320px;
+	float: left;
+	padding-bottom: 20px;
+	background-color: white;
+	text-align: center;
+}
+.hotnews_1 {
+	border-top: dashed 1px #950833;
+	border-right: dotted 1px #A2A2A2;
+}
+.hotnews {
+	border-top: dashed 1px #950833;
+}
+.hotnews_title {
+	background-image: url("../images/h2-confidential-heading-bg.gif");
+	border-top: solid 1px white;
+	border-right: solid 1px #A3000A;
+}
+.hotnews_img {
+	padding-top: 5px;
+}
+.more_text {
+	font-size: 12px;
+	position: relative;
+	top: -5px;
+	left: 110px;
+	font-weight: bold;
+	color: #474747;
+}
+.more_text a {
+	color: #565656;
+}
+.hotnews_text {
+	text-align: left;
+	padding-left: 7px;
+}
+.hotnews_text h5 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: #565656;
+}
+#hotnews {
+	text-align: center;
+}
+#hotnews_more_1 {
+	background-image: url("../images/h3-confidential-showbuzz-bg.gif");
+	background-position: 7px 0px;
+	background-repeat: no-repeat;
+}
+#hotnews_more_2 {
+	background-image: url("../images/h3-confidential-shootingstars-bg.gif");
+	background-position: 7px 0px;
+	background-repeat: no-repeat;
+}
+#hotnews_footer {
+	clear: both;
+	width: 640px;
+	height: 27px;
+	background-color: white;
+	background-image: url("../images/confidential-logo.gif");
+	background-repeat: no-repeat;
+	background-position: 7px 0px;
+}
+#movies_container {
+	width: 310px;
+	float: left;
+	margin-top: 10px;
+	background-color: white;
+}
+#movies_title {
+	background-image: url("../images/h2-top-movie-trailers-bg.gif");
+	border-top: solid 1px white;
+	border-bottom: dashed 1px #8FA7B3;
+	padding-left: 10px;
+}
+#movies_content {
+	border-top: dashed 1px #849CA8;
+	border-bottom: dashed 1px #E4E5E7;
+}
+.movies_trailer {
+	background-image: url("../images/h3-movie-trailers-bg.gif");
+	position: relative;
+	padding-bottom: 5px;
+}
+.movies_trailer:hover {
+	cursor:pointer;
+}
+.movies_menu {
+	color: #0086CC;
+	font-weight: bold;
+	font-size: 12px;
+	padding-top: 2px;
+	padding-left: 10px;
+}
+.movies_img {
+	position: absolute;
+    	right: 10px;
+    	top: 10px;
+}
+.movies_trailer_infor {
+	display: none;
+}
+.movies_trailer_infor>img {
+	padding: 5px;
+	float: left;
+}
+#movies_trailer_watch {
+	clear: both;
+}
+#movies_trailer_menu {
+	font-weight: bold;
+	font-size: 12px;
+	color: #565656;
+	position: relative;
+	top: -5px;
+	left: 5px;
+}
+#movies_trailer_img {
+	padding-left: 5px;
+}
+#select {
+	width: 175px;
+	position: relative;
+	top: -5px;
+	left: 10px;
+}
+#trailer {
+	float: left;
+	margin-left: 20px;
+}
+.trailer_container {
+	width: 310px;
+	margin-top: 10px;
+	background-color: white;	
+}
+.trailer_title {
+	background-image: url("../images/h2-top-movie-reviews-bg.gif");
+	position: relative;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+.trailer_content {
+	border-bottom: dotted 1px #A4A4A4;
+	padding-bottom: 20px;
+}
+#trailer_content {
+	padding-bottom: 20px;
+}
+#trailer_content h5 {
+	color: #0086CC;
+	margin: 5px;
+	display: inline-block;
+}
+.trailer_content h5 {
+	color: #0086CC;
+	margin: 5px;
+	display: inline-block;
+}
+.trailer_text_left {
+	float: left;
+    	padding-left: 7px;
+}
+.watch {
+	font-size: 11px;
+    	font-weight: bold;
+}
+.watch p {
+	color: #0086CC;
+	display: inline-block;
+	position: relative;
+	top: -5px;
+}
+#trailer_sprites_1 {
+	width: 60px;
+    	height: 15px;
+    	background: url("../images/topic-star-ratings.gif") 0 95px;
+	float: right;
+    	margin-right: 10px;
+    	margin-top: 5px;
+}
+#trailer_sprites_2 {
+	width: 60px;
+    	height: 15px;
+    	background: url("../images/topic-star-ratings.gif") 0 110px;
+	float: right;
+    	margin-right: 10px;
+    	margin-top: 5px;
+}
+#trailer_footer {
+	border-top: dotted 1px #A4A4A4;
+	width: 92%;
+    	margin: auto;
+}
+#trailer_footer_watch {
+	color: #0086CC;
+	font-size: 11px;
+    	font-weight: bold;
+	display: inline;
+    	position: relative;
+    	bottom: 5px;
+    	right: 5px;
+}
+#trailer_footer_p {
+	display: inline;
+	position: relative;
+	bottom: 5px;
+	right: -20px;
+}
+#trailer_footer_img {
+	position: relative;
+	top: 3px;
+	right: 5px;
+}
+#search {
+	float: left;
+	margin-top: 20px;
+    	margin-left: 20px;
+}
+#search_textbox {
+	margin-top: 10px;
+	margin-left: 15px;
+}
+#search_button {
+	background-color: #B33E7F;
+	font-weight: bold;
+	color: white;
+	border: 0;
+}
+#footer {
+	clear: both;
+	border-top: dashed 1px white;
+	position: relative;
+    	top: 30px;
+	text-align: center;
+}
+.footer_item {
+	display: inline-block;
+	width: 250px;
+	margin-top: 20px;
+}
+.footer_item p {
+	color: white;
+}
+#footer_bottom {
+	background-color: white;
+	text-align: center;
+	margin-top: 50px;
+	color: #0086CC;
+}
+#footer_bottom_left {
+	padding-top: 10px;
+}
+#footer_bottom_right {
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+#footer_bottom_end {
+	clear: both;	 
+}
