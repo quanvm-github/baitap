@@ -1,0 +1,49 @@
+button {
+	width: 100%;
+	height: 100%;
+	color: #2E86C1;
+	background-color: #A9CCE3;
+	border: 0;
+	padding: 0px;
+}
+select {
+	width: 100%;
+	height: 100%;
+	border: solid 1px #A9CCE3;
+}
+#inputtext {
+	height: 28px;
+    	width: 190px;
+	border: solid 1px #A5C7FE;
+}
+#calendarbutton {
+	margin-left: -40px;
+	margin-bottom: -12px;
+	cursor:pointer;
+}
+#calendar {
+	width: 420px;
+	background-color: #2D2D2D;
+	text-align: center;
+}
+#calendar tr td {
+	width: 60px;
+	height: 28px;
+}
+.day_week_name {
+	background-color: #BEBEBE;
+	font-size: 23px;
+	color: #FF0000;
+	font-weight: bold;
+}
+.date {
+	background-color: #FBFCFC;
+	cursor:pointer;
+}
+.hightlight {
+	background-color: #00ACE6;
+	border: solid 1px white;
+}
+.emptydate {
+	border: solid 1px white;
+}
