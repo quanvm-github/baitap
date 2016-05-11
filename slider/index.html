@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<title>Slider</title>
+	<link rel="stylesheet" type="text/css" href="css/slider.css">
+	<script src="js/slider.js"></script>
+</head>
+
+<body>
+	<div id="container">
+		<div id="slider">
+			<ul id="image_slider">
+				<li><img src="images/Hydrangeas.jpg"></li>
+				<li><img src="images/Koala.jpg"></li>
+				<li><img src="images/Lighthouse.jpg"></li>
+				<li><img src="images/Tulips.jpg"></li>
+				<li><img src="images/Penguins.jpg"></li>
+			</ul>
+			<span class="button" id="back" onclick="next(-1)"></span>
+			<span class="button" id="next" onclick="next(1)"></span>
+			<ul id="index_circle">
+				<li class="item" onClick="goTo(0);"></li>
+				<li class="item" onClick="goTo(1);"></li>
+				<li class="item" onClick="goTo(2);"></li>
+				<li class="item" onClick="goTo(3);"></li>
+				<li class="item" onClick="goTo(4);"></li>
+			</ul>
+		</div>
+	</div>
+</body>
+
+</html>

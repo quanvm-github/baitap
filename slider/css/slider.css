@@ -1,0 +1,43 @@
+ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+ul li {
+	float: left;
+}
+#slider {
+	width: 500px;
+    	height: 375px;
+	overflow: hidden;
+	position:relative;
+}
+#image_slider {
+	position: relative;
+}
+.button {
+	position: absolute;
+    	top: 160px;
+    	height: 32px;
+    	width: 32px;
+    	cursor: pointer;
+}
+#back {
+	background-image: url('../images/1462862906_arrow_left.png');
+	left: 10px;
+}
+#next {
+	background-image: url('../images/1462862872_arrow_right.png');
+	right: 10px;
+}
+#index_circle {
+	position: absolute;
+	top: 340px;
+	left: 5px;
+}
+.item {
+	width: 32px;
+	height: 32px;
+	cursor: pointer;
+	background-image: url('../images/1462863966_icon-ios7-circle-outline.png');
+}
