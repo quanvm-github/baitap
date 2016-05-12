@@ -1,8 +1,11 @@
 <?php
-	if(isset($_POST['check'])) {
-		$username = $_POST['check'];
+	if (isset($_GET["check"])) {
+		$username = $_GET["check"];
 		if($username == 'abc12345') {
-			return true;
+			echo "true";
 		}
-		return false;
+		else
+		{
+			echo "false";
+		}
 	}
