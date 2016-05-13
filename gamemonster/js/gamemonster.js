@@ -6,32 +6,7 @@ score =  0;
 highScore = 0;
 gameOver = false;
 gameWin = false;
-imgBlood = new Image();
-imgBlood.src = 'images/blood.png';
 
-imgMonster = new Image();
-imgMonster.src = 'images/monster.png';
-
-imgBoss = new Image();
-imgBoss.src = 'images/boss.png';
-
-imgHeart = new Image();
-imgHeart.src = 'images/heart.png';
-
-imgBoom = new Image();
-imgBoom.src = 'images/boom.png';
-
-imgPause = new Image();
-imgPause.src = 'images/pause.png';
-
-imgBackground = new Image();
-imgBackground.src = 'images/background.jpg';
-
-imgBottom = new Image();
-imgBottom.src = 'images/bottom.jpg';
-
-imgReset = new Image();
-imgReset.src = 'images/reset.png';
 
 window.onload = function() {
 	canvas = document.getElementById("canvas");
@@ -80,9 +55,4 @@ Monster.prototype.move = function() {
 Monster.prototype.checkCollision = function() {
 	if(this.startx <= 0 || this.startx >= canvas.width - this.width) this.speedx = -this.speedx;
 	if(this.starty <= 0 || this.starty >= canvas.height - this.height) this.speedy = -this.speedy;
-}
-
-function drawBackground() {
-	context.drawImage(imgBackground, 0, 0, canvas.width, canvas.height);
-	reAnimation(drawBackground);
 }
