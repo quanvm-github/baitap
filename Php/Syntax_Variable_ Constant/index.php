@@ -21,19 +21,19 @@
 <body>
     <table border="solid 1px black">
         <tr>
-            <td>Vi du ve multiline string A</td>
+            <td>Multiline string A</td>
             <td><textarea cols="20" rows="5"><?= $stringMultiLineA ?></textarea></td>
         </tr>
         <tr>
-            <td>Vi du ve multiline string B</td>
+            <td>Mltiline string B</td>
             <td><textarea cols="20" rows="5"><?= $stringMultiLineB ?></textarea></td>
         </tr>
         <tr>
-            <td>Vi du ve list array</td>
+            <td>List array</td>
             <td><?= $varA.$varB.$varC ?></td>
         </tr>
         <tr>
-            <td>Vi du ve const</td>
+            <td>Const</td>
             <td><?= CON_PI ?></td>
         </tr>
     </table>
