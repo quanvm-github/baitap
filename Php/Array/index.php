@@ -1,13 +1,20 @@
 <?php
     $arrayDefaultKey = array(1,2,5,4,3);
     $arrayWithKey = array("Peter"=>"35", "Joe"=>"43", "Ben"=>"37");
+    $a1 = array("a"=>"red", "b"=>"green", "c"=>"blue", "d"=>"yellow");
+    $a2 = array("a"=>"red", "b"=>"green", "c"=>"white");
+
+    function test_odd ($var)
+    {
+        return ($var % 2 == 1);
+    }
 ?>
 
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Syntax_Variable_ Constant</title>
+    <title>Array</title>
 </head>
 
 <body>
@@ -191,9 +198,46 @@
             </td>
         </tr>
         <tr>
-            <td>Array diff and array diff key</td>
+            <td>Array diff and array intersect</td>
             <td>
-                
+                <?php
+                    $result = array_diff($a1, $a2);
+                    print_r($result);
+                ?>
+            </td>
+            <td>
+                <?php
+                    $result = array_intersect($a1, $a2);
+                    print_r($result);
+                ?>
+            </td>
+        </tr>
+        <tr>
+            <td>Array merge and array + arrray</td>
+            <td>
+                <?php
+                    $result = array_merge($a1, $a2);
+                    print_r($result);
+                ?>
+            </td>
+            <td>
+                <?php
+                    $result = $a1 + $a2;
+                    print_r($result);
+                ?>
+            </td>
+        </tr>
+        <tr>
+            <td>Array filter / map </td>
+            <td>
+                <?php
+                    print_r(array_filter($arrayDefaultKey, "test_odd"));
+                ?>
+            </td>
+            <td>
+                <?php
+                    print_r(array_map("test_odd", $arrayDefaultKey));
+                ?>
             </td>
         </tr>
     </table>

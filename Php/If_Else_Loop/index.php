@@ -8,7 +8,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Syntax_Variable_ Constant</title>
+    <title>If_Else_Loop</title>
 </head>
 
 <body>

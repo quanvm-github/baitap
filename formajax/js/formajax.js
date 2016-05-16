@@ -38,7 +38,7 @@ function checkPassword() {
 		errorPassword.innerHTML = "Password length min 8 letter";
 		return false;
 	}
-	else if(password.value.match(regex) == null){
+	else if(password.value.match(regex) == null) {
 		errorPassword.innerHTML = "Password must have special characters";
 		return false;
 	}

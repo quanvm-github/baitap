@@ -17,7 +17,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Syntax_Variable_ Constant</title>
+    <title>Operator</title>
 </head>
 
 <body>
