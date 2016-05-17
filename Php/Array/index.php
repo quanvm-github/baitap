@@ -4,7 +4,7 @@
     $a1 = array("a"=>"red", "b"=>"green", "c"=>"blue", "d"=>"yellow");
     $a2 = array("a"=>"red", "b"=>"green", "c"=>"white");
 
-    function test_odd ($var)
+    function testOdd ($var)
     {
         return ($var % 2 == 1);
     }
@@ -231,12 +231,12 @@
             <td>Array filter / map </td>
             <td>
                 <?php
-                    print_r(array_filter($arrayDefaultKey, "test_odd"));
+                    print_r(array_filter($arrayDefaultKey, "testOdd"));
                 ?>
             </td>
             <td>
                 <?php
-                    print_r(array_map("test_odd", $arrayDefaultKey));
+                    print_r(array_map("testOdd", $arrayDefaultKey));
                 ?>
             </td>
         </tr>

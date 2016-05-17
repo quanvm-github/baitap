@@ -28,13 +28,8 @@
             } else {
                 if (move_uploaded_file($_FILES["file"]["tmp_name"], $path_file)) {
                     echo "The file " . $_FILES["file"]["name"] . " has been uploaded.";
-                    $tmpName = tempnam("uploads/", "");
-                    $tmpOpen = fopen($tmpName, "w");
-                    fwrite($tmpOpen, "The file " . $_FILES["file"]["name"] . " has been uploaded, " . date("Y-m-d H:i:s"));
-                    fclose($tmpOpen);
-                    $fileCsv = fopen("uploads/log.csv","a");
-                    fwrite($fileCsv, "The file " . $_FILES["file"]["name"] . " has been uploaded, " . date("Y-m-d H:i:s") . "," . "\n");
-                    fclose($fileCsv);
+                    createTmpfile();
+                    writeLogcsv();
                 } else {
                     echo "Sorry, there was an error uploading your file.";
                 }
@@ -70,4 +65,19 @@
             header('Content-Disposition: attachment; filename = log.csv');
             readfile($path_file);
         }    
+    }
+
+    function createTmpfile()
+    {        
+        $tmpName = tempnam("uploads/", "");
+        $tmpOpen = fopen($tmpName, "w");
+        fwrite($tmpOpen, "The file " . $_FILES["file"]["name"] . " has been uploaded, " . date("Y-m-d H:i:s"));
+        fclose($tmpOpen);
+    }
+
+    function writeLogcsv()
+    {
+        $fileCsv = fopen("uploads/log.csv","a");
+        fwrite($fileCsv, "The file " . $_FILES["file"]["name"] . " has been uploaded, " . date("Y-m-d H:i:s") . "," . "\n");
+        fclose($fileCsv);
     }
