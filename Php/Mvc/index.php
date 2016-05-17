@@ -5,14 +5,14 @@
     $url = explode("/", $_SERVER['REQUEST_URI']);
     $action = $url[4];
 
-    $_SESSION["baseUrl"] = "/Php/Mvc/index.php";
+    $_SESSION["baseUrl"] = "/test/Mvc/index.php";
 ?>
 
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Oop</title>
+    <title>Mvc</title>
 </head>
 
 <body>
