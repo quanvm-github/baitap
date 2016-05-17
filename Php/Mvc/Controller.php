@@ -12,23 +12,30 @@
 
           public function index()
           {
+               // not login yet
                if (!isset($_SESSION["login"])) {
+                    // check login
                     $check = $this->model->login();
+                    // login success
                     if ($check) {
                          $_SESSION["login"] = "user";
                          $listSv = $this->model->listSv();
                          include 'View/listSv_view.php';
                     }
                     else {
+                         // login false
                          include 'View/login_view.php';
                     }
                }
+               // already login success
                else {
                     $this->model->listSv();
                     $listSv = $this->model->listSv();
                     include 'View/listSv_view.php';
                }
           }
+
+          // show info sinh vien by selected value
           public function infoSv()
           {
                $value = $_POST["select"];

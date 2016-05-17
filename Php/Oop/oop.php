@@ -11,7 +11,7 @@
             foreach ($this->text as $value) {
                fwrite($file, $value . ", ");
             }
-            fwrite($file, date("Y-m-d H:i:s") . "\n");
+            fwrite($file, date("Y-m-d H:i:s") . "\n"); // content and present date
             fclose($file);
         }
 

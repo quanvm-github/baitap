@@ -18,7 +18,7 @@
 <body>
     <?php
         if ($action == null) {
-            $controller->index();
+            $controller->index(); //default action
         }
         else $controller->$action();
     ?>
