@@ -1,0 +1,55 @@
+body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+#container {
+	width: 500px;
+	border: solid 1px #0033FF;
+	margin: auto;
+}
+#playerprofile {
+	height: 25px;
+	background-image: url("../images/title_bg.gif");
+	margin-top: -20px;
+}
+#playerinfo {
+	height: 100px;
+}
+#playerinfo img {
+	width: 100px;
+	height:90px;
+	float: left;
+}
+#playerinfotext {
+	height: 100px;
+	overflow: scroll;
+	line-height: 0;
+}
+#facts ul li img {
+	padding-right: 10px;
+}
+#comment p:nth-child(odd) {
+	background-color: #ECECEC;
+	margin: 0px 4px 0px 4px;
+	padding: 5px;
+}
+#comment p:nth-child(even) {
+	margin-top: -5px;
+	margin-bottom: 0px;
+	padding-left: 30px;
+}
+#yourcomment {
+	margin-top: 20px;
+}
+#yourcomment h4 {
+	text-align: center;
+	margin: 0px;
+}
+#yourcomment tr td:first-child {
+	width: 130px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<title>Form Ajax</title>
+	<link rel="stylesheet" type="text/css" href="css/calendar.css">
+	<link rel="stylesheet" type="text/css" href="css/formajax.css">
+	<script src="js/calendar.js"></script>
+	<script src="js/formajax.js"></script>
+</head>
+
+<body>
+	<div id="container">
+		<form id="submit" action="#" method="post">
+			<table>
+				<tr>
+					<td><label>Username: </label></td>
+					<td><input type="text" id="username" name="username" placeholder=" Your Name ..." class="input-text"
+					onchange="checkUser()"/></td>
+					<td><label id="error_user" class="error"></label></td>
+				</tr>
+				<tr>
+					<td><label>Password: </label></td>
+					<td><input type="password" id="password" name="password" placeholder=" Password ..." class="input-text"
+					onchange="checkPassword()"/></td>
+					<td><label id="error_password" class="error"></label></td>
+				</tr>
+				<tr>
+					<td><label>Email: </label></td>
+					<td><input type="text" id="email" name="email" placeholder=" Your Email ..." class="input-text"
+					onchange="checkEmail()"/></td>
+					<td><label id="error_email" class="error"></label></td>
+				</tr>
+				<tr>
+					<td><label>Birthday: </label></td>
+					<td>
+						<div id="calendar_content">
+							<input type = "text" id="inputtext" class="input-text" readonly/>
+							<img src="images/calendar.png" alt="" id="calendarbutton" onclick="show()"/>
+						</div>
+						<div id="calendar" onclick="checkBirthday()"></div>
+					</td>
+					<td><label id="error_birthday" class="error"></label></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<input type="button" value="SUBMIT" class="button" onclick="checkSubmit()"/>
+						<input type="reset" value="REFRESH" class="button"/>
+					</td>
+					<td></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+
+</html>

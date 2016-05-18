@@ -1,0 +1,29 @@
+input {
+	border-radius: 5px;
+	border: solid 1px #C6F1D9;
+    	box-shadow: 0px 0px 10px #B4EECC;
+}
+label {
+	font-weight: bold;
+	float: right;
+}
+table td {
+	padding: 5px;
+}
+#container {
+	margin: auto;
+	width: 500px;
+}
+.input-text {
+	height: 28px;
+    	width: 190px;
+}
+.button {
+	background-color: #2471A3;
+	height: 30px;
+	color: white;
+}
+.error {
+	width: 300px;
+	color: red;
+}
