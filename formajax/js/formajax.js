@@ -95,7 +95,7 @@ function checkUsernameServer() {
 				errorUser.innerHTML = "";
 				flaguser = true;
 			}
-    		}
+    	}
   	};
   	xhttp.open("GET", "check.php?check=" + check, true);
   	xhttp.send();
