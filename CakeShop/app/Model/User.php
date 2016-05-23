@@ -4,7 +4,7 @@
 
     class User extends AppModel
     {
-        public $validate = array(
+        public $validate = array(// dung de validate thong tin user
         'username' => array(
             'required' => array(
                 'rule' => 'notBlank',
@@ -23,6 +23,7 @@
         )
         );
 
+        // co the dung md5 de thay the
         public function beforeSave($options = array()) {
             if (isset($this->data[$this->alias]['password'])) {
                 $passwordHasher = new BlowfishPasswordHasher();

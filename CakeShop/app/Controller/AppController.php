@@ -31,18 +31,19 @@ App::uses('Controller', 'Controller');
  * @link		http://book.cakephp.org/2.0/en/controllers.html#the-app-controller
  */
 class AppController extends Controller {
-    //...
+    // Khai bao 1 component tu tao
     public $components = array(
-        'Flash',
-        'Auth' => array(
+        'Flash',// componet ho tro tra ve message khi co loi, event ...
+        'Auth' => array(// component ho tro cac method ve login
             'authenticate' => array(
                 'Form' => array(
-                    'passwordHasher' => 'Blowfish'
+                    'passwordHasher' => 'Blowfish'// thuat toan dung de hash password, co the dung md5 de thay the
                 )
             )
         )
     );
 
+    // cho phep moi nguoi deu duoc vao trang index
     public function beforeFilter() {
         $this->Auth->allow('index');
     }
