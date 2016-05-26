@@ -1,13 +1,3 @@
-monster = [];
-numMonster = 9;
-dieMonster = false;
-heart = 3;
-score =  0;
-highScore = 0;
-gameOver = false;
-gameWin = false;
-
-
 window.onload = function() {
 	canvas = document.getElementById("canvas");
 	context = canvas.getContext("2d");
