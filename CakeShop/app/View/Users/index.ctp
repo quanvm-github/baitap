@@ -1,5 +1,6 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <?php
-    echo $this->Form->create('User');
+    echo $this->Html->script('paging');
 ?>
 <table>
     <?php
@@ -25,4 +26,17 @@
         }
     ?>
 </table>
-<?php echo $this->Form->end(); ?>
+<?php
+    echo $this->Form->create('User', array('id' => 'form'));
+    echo $this->Form->hidden('page', array('id' => 'page'));
+?>
+<div class="paging">
+<?php
+    echo $this->Paginator->first('<<');
+    echo $this->Paginator->numbers(array('separator' => ''));
+    echo $this->Paginator->last('>>');
+?>
+</div>
+<?php
+    echo $this->Form->end();
+?>

@@ -40,7 +40,8 @@ class AppController extends Controller {
                     'passwordHasher' => 'Blowfish'// thuat toan dung de hash password, co the dung md5 de thay the
                 )
             )
-        )
+        ),
+        'Paginator'// component phan trang
     );
 
     // cho phep moi nguoi deu duoc vao trang index

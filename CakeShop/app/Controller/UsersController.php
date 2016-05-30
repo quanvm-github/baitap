@@ -10,7 +10,20 @@
 
     // hien danh sach all user
     public function index() {
-        $this->set('user', $this->User->find('all'));
+        $page = 1;// page mac dinh
+        if (isset($this->request->data[$this->modelClass]['page'])) {
+            $page = $this->request->data[$this->modelClass]['page'];
+        }// nhay den page dc click vao
+
+        $this->Paginator->settings = array(
+            'page' => $page,
+            'limit' => 3,
+            'order' => array(
+                'id' => 'desc'
+            )
+        );
+
+        $this->set('user', $this->Paginator->paginate());
     }
 
     public function login() {
