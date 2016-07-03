@@ -26,8 +26,6 @@ function start () {
 
 	image_bacground = new Image();
 	image_bacground.src = "images/bg.jpg";
-	image_bacground_right = new Image();
-	image_bacground_right.src = "images/bg_right.jpg";
 	image_bonus = new Image();
 	image_bonus.src = "images/money.png";
 	image_start = new Image();
