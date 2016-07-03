@@ -1,6 +1,11 @@
 #container {
+	margin: auto;
 	text-align: center;
+	width: 650px;
 }
 #canvas {
-	border: solid 1px black;
+	float: left;
+}
+#canvas_right {
+	float: right;
 }
