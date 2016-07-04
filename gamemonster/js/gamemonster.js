@@ -184,8 +184,8 @@ function update() {
 	if (flag_start_check == 1) {
 		drawBackground();
 		drawContentRight();
-		drawMonster();
 		drawMoney();
+		drawMonster();
 	}
 	if (flag_start_check == 3) {
 		drawBackground();
@@ -323,7 +323,8 @@ function drawMonster() {
 function drawMoney() {
 	for (i = 0; i < monster_die_count; i += 2) {
 		context.drawImage(image_bonus,
-			monster_die[i], monster_die[i+1],
+			monster_die[i] - (image_bonus.width / 2),
+			monster_die[i+1] - (image_bonus.height / 2),
 			image_bonus.width, image_bonus.height);
 	}
 }
@@ -345,5 +346,3 @@ function drawWelcome() {
 	context.fillStyle = "red";
 	context.fillText("Welcome !", canvas.width / 2 - 80, canvas.height / 2 - 10);
 }
-
-
