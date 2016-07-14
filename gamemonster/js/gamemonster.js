@@ -3,7 +3,7 @@ window.onload = function() {
 	context = canvas.getContext("2d");
 	canvas_right = document.getElementById("canvas_right");
 	context_right = canvas_right.getContext("2d");
-	canvas.addEventListener("click", click);	
+	canvas.addEventListener("click", click);
 	canvas_right.addEventListener("click", clickRight);
 
 	start();

@@ -1,0 +1,360 @@
+.introduction_image_right_quanvm {
+	float: right;
+}
+.introduction_div_top_left_quanvm {
+	float: left;
+}
+.introduction_div_top_content_quanvm {
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 20px;
+}
+.introduction_ul_with_decoration_quanvm {
+	list-style-type: square;
+	font-weight: bold;
+	text-align: left;
+}
+.introduction_ul_with_decoration_quanvm li {
+	margin-left: 70px;
+}
+.introduce_div_top_clear_quanvm {
+	clear: both;
+	text-align: left;
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+.introduction_div_middle_quanvm {
+	text-align: left;
+	padding-left: 10px;
+}
+.introduction_div_middle_p_odd_quanvm {
+	font-weight: bold;
+}
+.introductiondiv_middle_p_even_quanvm {
+	padding-left: 8px;
+	padding-bottom: 15px;
+}
+.introduction_div_middle_p_end_quanvm {
+	padding-left: 8px;
+	padding-bottom: 40px;
+}
+.introduce_div_middle_contain_quanvm {
+}
+.introduction_image_left_quanvm {
+	float: left;
+}
+.introduce_div_middle_content_quanvm {
+	float: left;
+	text-align: left;
+	margin-left: 20px;
+	padding-bottom: 40px;
+	width: 430px;
+}
+.introduction_image_bottom_line_1_quanvm {
+	float: left;
+	padding-left: 10px;
+}
+.introduction_image_bottom_line_2_quanvm {
+	float: left;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.introduction_clear_bottom_quanvm {
+	clear: both;
+}
+
+/* end introduction */
+
+.facial_div_top_1_quanvm {
+	text-align: left;
+	width: 70%;
+	margin-left: 40px;
+	margin-bottom: 20px;
+}
+.facial_div_top_2_quanvm {
+	text-align: left;
+	width: 70%;
+	margin-bottom: 20px;
+}
+.facial_image_pbottom_quanvm {
+	margin-bottom: 20px;
+}
+.facial_image_width296_quanvm {
+	float: left;
+	width: 296px;
+}
+.facial_div_middle_content {
+	float: left;
+	text-align: left;
+	width: 50%;
+	margin-left: 20px;
+}
+.facial_span_bold_quanvm {
+	font-weight: bold;
+}
+.facial_p_center_quanvm {
+	font-size: 18px;
+	text-align: center;
+}
+.facial_image_left_quanvm {
+	float: left;
+	margin-bottom: 50px;
+}
+
+/* end facial */
+
+.slim_div_top_1_quanvm {
+	text-align: left;
+	width: 70%;
+	margin-left: 40px;
+	margin-bottom: 20px;
+}
+.slim_div_top_2_quanvm {
+	text-align: left;
+	width: 70%;
+	margin-bottom: 20px;
+}
+.slim_image_pbottom_quanvm {
+	margin-bottom: 20px;
+}
+.slim_div_middle_content {
+	float: left;
+	text-align: left;
+	width: 50%;
+	margin-left: 20px;
+}
+.slim_span_bold_quanvm {
+	font-weight: bold;
+}
+.slim_p_center_quanvm {
+	font-size: 18px;
+	text-align: center;
+}
+.slim_image_left_quanvm {
+	float: left;
+	margin-bottom: 50px;
+}
+
+/* end slim */
+
+.depilation_span_red_quanvm {
+	color: red;
+	font-weight: bold;
+}
+.depilation_like_h4_quanvm {
+	background: url(../images/h4.png) no-repeat;
+	padding-left: 4%;
+}
+.depilation_div_top_1_quanvm {
+	text-align: left;
+	width: 80%;
+	margin-left: 40px;
+	margin-bottom: 40px;
+}
+.depilation_div_top_2_quanvm {
+	text-align: left;
+	width: 80%;
+	margin-bottom: 20px;
+}
+.depilation_image_pbottom_quanvm {
+	margin-bottom: 20px;
+}
+.depilation_div_middle_content {
+	float: left;
+	text-align: left;
+	width: 50%;
+	margin-left: 20px;
+}
+.depilation_span_bold_quanvm {
+	font-weight: bold;
+}
+.depilation_p_center_quanvm {
+	font-size: 18px;
+	text-align: center;
+}
+.depilation_image_left_quanvm {
+	float: left;
+	margin-bottom: 50px;
+}
+
+/* end depilation */
+
+.bihda_span_red_quanvm {
+	color: red;
+	font-weight: bold;
+}
+.bihda_div_top_1_quanvm {
+	text-align: left;
+	width: 80%;
+	margin-left: 40px;
+	margin-bottom: 40px;
+}
+.bihda_div_top_2_quanvm {
+	text-align: left;
+	width: 80%;
+	margin-bottom: 20px;
+}
+.bihda_image_pbottom_quanvm {
+	margin-bottom: 20px;
+}
+.bihda_p_top_quanvm {
+	text-align: left;
+	padding-bottom: 5px;
+}
+.bihda_div_middle_content {
+	float: left;
+	text-align: left;
+	width: 50%;
+	margin-left: 20px;
+}
+.bihda_div_clear_middle_quanvm {
+	text-align: left;
+	clear: both;
+	margin-bottom: 20px;
+}
+.bihda_span_bold_quanvm {
+	font-weight: bold;
+}
+.bihda_p_center_quanvm {
+	font-size: 18px;
+	text-align: center;
+}
+.bihda_div_clear_bottom_quanvm {
+	clear: both;
+}
+.bihda_image_left_quanvm {
+	float: left;
+	margin-bottom: 20px;
+}
+.bihda_image_center_quanvm {
+	background-image: url("../images/bihda/next.png");
+	background-repeat: no-repeat;
+	width: 80px;
+	height: 73px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 70px;
+}
+.bihda_image_right_quanvm {
+	float: right;
+	margin-bottom: 40px;
+}
+
+/* end bihda */
+
+.acty_div_top_content_quanvm {
+	float: left;
+	text-align: left;
+	width: 65%;
+}
+.acty_image_right_quanvm {
+	float: right;
+	margin-bottom: 40px;
+}
+.acty_div_clear_top_quanvm {
+	clear: both;
+	text-align: left;
+	padding-top: 30px;
+}
+.acty_div_top_center_quanvm {
+	text-align: center;
+	margin-bottom: 30px;
+}
+.acty_images_big_quanvm {
+	margin-bottom: 20px;
+}
+
+/* end acty */
+
+.hair_div_top_1_quanvm {
+	text-align: left;
+	width: 70%;
+	margin-left: 40px;
+	margin-bottom: 20px;
+}
+.hair_div_top_2_quanvm {
+	text-align: left;
+	width: 70%;
+	margin-bottom: 20px;
+}
+.hair_image_pbottom_quanvm {
+	margin-bottom: 20px;
+}
+.hair_div_middle_content {
+	float: left;
+	text-align: left;
+	width: 50%;
+	margin-left: 20px;
+}
+.hair_span_bold_quanvm {
+	font-weight: bold;
+}
+.hair_p_center_quanvm {
+	font-size: 18px;
+	text-align: center;
+}
+.hair_image_left_quanvm {
+	float: left;
+	margin-bottom: 50px;
+}
+
+/* end hair */
+
+.case_div_top_1_quanvm {
+	text-align: left;
+	width: 70%;
+	margin-left: 40px;
+	margin-bottom: 20px;
+}
+.case_div_middle_quanvm {
+	text-align: left;
+	margin-left: 20px;
+}
+.case_p_title_quanvm {
+	margin-bottom: 10px;
+}
+.case_div_clear_quanvm {
+	clear: both;
+	height: 20px;
+}
+.case_image_left_quanvm {
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+
+/* end case */
+
+.qa_div_top_1_quanvm {
+	margin-bottom: 20px;
+}
+.qa_image_top_quanvm {
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.qa_div_middle_quanvm {
+	text-align: left;
+	margin-left: 20px;
+}
+.qa_div_q_quanvm {
+	margin-bottom: 10px;
+}
+.qa_div_a_quanvm {
+	margin-bottom: 20px;
+}
+.qa_image_quanvm {
+	vertical-align: middle;
+}
+.qa_p_inline_quanvm {
+	display: inline-block;
+	margin-left: 5px;
+}
+.qa_font_bold_quanvm {
+	font-weight: bold;
+}
+.qa_p_inline_sub_quanvm {
+	display: inline-block;
+	margin-left: 50px;
+}
+
+/* end qa */

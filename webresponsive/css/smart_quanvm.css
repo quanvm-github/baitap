@@ -1,0 +1,172 @@
+@media screen and (max-width: 644px) {
+	.introduction_image_right_quanvm {
+		float: none;
+	}
+	.introduction_div_top_content_quanvm {
+		font-weight: bold;
+		font-size: 20px;
+		margin-left: 0px;
+		margin-top: 10px;
+	}
+	.introduction_div_middle_quanvm {
+		text-align: left;
+		padding-left: 0px;
+		padding-top: 10px;
+	}
+	.introduce_div_middle_contain_quanvm {
+		width: 100%;
+	}
+	.introduction_image_left_quanvm {
+		float: none;
+	}
+	.introduce_div_middle_content_quanvm {
+		float: none;
+		text-align: left;
+		margin-left: 0px;
+		margin-top: 10px;
+		padding-bottom: 40px;
+		width: auto;
+	}
+	.introduction_image_bottom_line_1_quanvm {
+		float: none;
+		padding-left: 0px;
+		padding-top: 10px;
+	}
+	.introduction_image_bottom_line_2_quanvm {
+		float: none;
+		padding-left: 0px;
+		padding-top: 10px;
+	}
+
+	/* end introduction */
+
+	.facial_div_top_2_quanvm {
+		text-align: left;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.facial_image_width296_quanvm {
+		float: none;
+		margin-bottom: 10px;
+		width: 296px;
+	}
+	.facial_div_middle_content {
+		float: none;
+		text-align: left;
+		width: 100%;
+		margin-left: 0px;
+		margin-bottom: 20px;
+	}
+	.facial_image_left_quanvm {
+		float: none;
+		margin-bottom: 10px;
+	}
+
+	/* end facial */
+
+	.slim_div_top_2_quanvm {
+		text-align: left;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.slim_div_middle_content {
+		float: none;
+		text-align: left;
+		width: 100%;
+		margin-left: 0px;
+		margin-bottom: 20px;
+	}
+	.slim_image_left_quanvm {
+		float: none;
+		margin-bottom: 10px;
+	}
+
+	/* end slim */
+
+	.depilation_like_h4_quanvm {
+		background: url(../images/h4.png) no-repeat;
+		padding-left: 7%;
+	}
+	.depilation_div_top_2_quanvm {
+		text-align: left;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.depilation_div_middle_content {
+		float: none;
+		text-align: left;
+		width: 100%;
+		margin-left: 0px;
+		margin-bottom: 20px;
+	}
+	.depilation_image_left_quanvm {
+		float: none;
+		margin-bottom: 10px;
+	}
+
+	/* end depilation */
+
+	.bihda_div_top_2_quanvm {
+		text-align: left;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.bihda_div_middle_content {
+		float: none;
+		text-align: left;
+		width: 100%;
+		margin-left: 0px;
+		margin-bottom: 20px;
+	}
+	.bihda_image_left_quanvm {
+		float: none;
+		margin-bottom: 10px;
+	}
+	.bihda_image_center_quanvm {
+		background-image: url("../images/bihda/down.png");
+		background-repeat: no-repeat;
+		width: 80px;
+		height: 73px;
+		float: none;
+		margin: 0px 0px 10px 40%;
+	}
+	.bihda_image_right_quanvm {
+		float: none;
+		margin-bottom: 30px;
+	}
+
+	/* end bihda */
+
+	.acty_div_top_content_quanvm {
+		float: none;
+		width: 100%;
+	}
+	.acty_image_right_quanvm {
+		float: none;
+		margin-bottom: 40px;
+	}
+
+	/* end acty */
+
+	.hair_div_top_1_quanvm {
+		width: 80%;
+	}
+	.hair_div_top_2_quanvm {
+		width: 100%;
+	}
+	.hair_div_middle_content {
+		float: none;
+		width: 90%;
+	}
+	.hair_p_center_quanvm {
+		margin-bottom: 20px;
+	}
+	.hair_image_left_quanvm {
+		float: none;
+		margin-bottom: 10px;
+	}
+
+	/* end hair */
+
+	/* end case */
+}
